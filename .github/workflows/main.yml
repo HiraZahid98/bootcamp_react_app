@@ -39,4 +39,4 @@ jobs:
       - name: installing surge
         run:  npm install -g surge
       - name: deploying on surge
-        run: Surge ./build ill-informed-plate.surge.sh/ --token ${{ secrets.SECRET_TOKEN }}
+        run: Surge ./build serious-farm.surge.sh --token ${{ secrets.SECRET_TOKEN }}
